@@ -1,0 +1,7 @@
+{
+  "name": "modernUi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
