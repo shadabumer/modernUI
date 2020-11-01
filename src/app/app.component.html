@@ -2,6 +2,44 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
+        <div class="menu-header-bg"></div>
+
+        <div class="header-content">
+          <img src="assets/user-avatar.jpg" alt="">
+          <ion-label>
+            <h2>John Doe</h2>
+            <p>App User</p>
+          </ion-label>
+        </div>
+
+        <div class="action-button">
+          <ion-button>
+            <ion-icon slot="start" name="add"></ion-icon>
+            Add Branch
+          </ion-button>
+        </div>
+
+        <ion-list class="menu-items" lines="none">
+          <ion-item>
+            <ion-icon name="pie-chart-outline"></ion-icon> Dashboard
+          </ion-item>
+          <ion-item>
+            <ion-icon name="browsers-outline"></ion-icon> Post sessions
+          </ion-item>
+          <ion-item class="active">
+            <ion-icon name="flash"></ion-icon> Live sessions
+          </ion-item>
+          <ion-item>
+            <ion-icon name="chatbubble-ellipses-outline"></ion-icon> Messages
+          </ion-item>
+          <ion-item>
+            <ion-icon name="heart-outline"></ion-icon> Locum library
+          </ion-item>
+          <ion-item>
+            <ion-icon name="exit-outline"></ion-icon> Sign out
+          </ion-item>
+        </ion-list>
+
         <ion-list id="inbox-list">
           <ion-list-header>Inbox</ion-list-header>
           <ion-note>hi@ionicframework.com</ion-note>
